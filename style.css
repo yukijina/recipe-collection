@@ -67,6 +67,11 @@ h2 {
   letter-spacing: 0.1rem;
 }
 
+h3 {
+  font-weight: 600;
+  font-size: 3.2rem;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -90,6 +95,8 @@ main {
 .img-text {
   text-align: center;
   font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 /* Footer */
@@ -126,6 +133,7 @@ ion-icon {
   margin-top: 8rem;
 }
 
+/* Main */
 .about-text-col {
   margin-left: 3rem;
 }
@@ -138,4 +146,10 @@ ion-icon {
 
 .about-icons ion-icon:first-child {
   margin-left: 1rem;
+}
+
+.about-heading-2 {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  text-align: center;
 }
