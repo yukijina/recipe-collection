@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me | My recipe collections</title>
+    <title>Contact us| My recipe collections</title>
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
@@ -42,19 +42,50 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/">Home</a>
             <a class="nav-link" href="/about.html">About</a>
-            <a class="nav-link" href="#">Recipe</a>
-            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link" href="/recipe.html">Recipe</a>
+            <a class="nav-link" active aria-current="page" href="/contact.html"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
     </nav>
 
     <!-- Header -->
+    <header class="page-header">
+      <h1>Contct us</h1>
+    </header>
 
     <!-- Main content -->
-    <main class="container"></main>
+    <main class="container">
+      <div class="row">
+        <div class="col contact-text-col align-self-center">
+          <h2>Lorem ipsum dolor!</h2>
+          <div class="contact-text-wrapper">
+            <p class="text-title">Address:</p>
+            <p class="text-content">
+              <ion-icon name="home-outline"></ion-icon>
+              12345 St.Hollywood Boulavard, Los Angeles
+            </p>
+            <p class="text-title">Email:</p>
+            <p class="text-content">
+              <ion-icon name="mail-outline"></ion-icon>
+              loremips@example.com
+            </p>
+            <p class="text-title">Phone:</p>
+            <p class="text-content">
+              <ion-icon name="call-outline"></ion-icon>
+              012-123-4567
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="/images/contact.jpg" alt="vegetable garden" />
+        </div>
+      </div>
+    </main>
 
     <!-- Footer -->
     <footer>

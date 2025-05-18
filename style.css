@@ -128,7 +128,7 @@ ion-icon {
 
 /* About page */
 /* Header  */
-.about-header h1 {
+.page-header h1 {
   text-align: center;
   margin-top: 8rem;
 }
@@ -152,4 +152,21 @@ ion-icon {
   margin-top: 10rem;
   margin-bottom: 5rem;
   text-align: center;
+}
+
+.contact-text-col {
+  margin-right: 3em;
+}
+.contact-text-wrapper {
+  margin-top: 5rem;
+}
+
+.text-title {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.text-content ion-icon {
+  font-size: 1.8rem;
 }
