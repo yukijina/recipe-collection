@@ -46,7 +46,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 70vh;
 }
 
 .header-text-container {
@@ -66,4 +66,14 @@ h1 {
 header p {
   font-size: 1.8rem;
   font-weight: 600;
+}
+
+/* Main */
+main {
+  margin: 15rem 0;
+}
+
+.img-text {
+  text-align: center;
+  font-size: 2rem;
 }
