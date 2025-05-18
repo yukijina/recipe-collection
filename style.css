@@ -55,11 +55,25 @@ p {
 }
 
 h1 {
-  color: var(--white);
   font-weight: 700;
   font-size: 4.8rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  letter-spacing: 0.1rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.home-header h1 {
+  color: var(--white);
   margin-bottom: 1rem;
 }
 
@@ -103,4 +117,25 @@ ion-icon {
   text-align: center;
   margin-top: 1.6rem;
   font-size: 1.4rem;
+}
+
+/* About page */
+/* Header  */
+.about-header h1 {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.about-text-col {
+  margin-left: 3rem;
+}
+
+.about-icons ion-icon {
+  font-size: 2.4rem;
+  margin-right: 0;
+  vertical-align: text-top;
+}
+
+.about-icons ion-icon:first-child {
+  margin-left: 1rem;
 }
