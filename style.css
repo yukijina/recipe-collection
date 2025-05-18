@@ -77,3 +77,30 @@ main {
   text-align: center;
   font-size: 2rem;
 }
+
+/* Footer */
+footer {
+  background-color: var(--tertiary-color);
+  color: var(--white);
+  padding: 16rem 5rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+ion-icon {
+  margin-right: 1rem;
+  font-size: 3.6rem;
+}
+
+.footer-copyright {
+  font-size: 1.2rem;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
+}
