@@ -35,7 +35,7 @@ p {
 }
 
 /* Header */
-header {
+.home-header {
   background-image: linear-gradient(
       to right,
       rgba(255, 231, 231, 0.151),
