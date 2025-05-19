@@ -30,10 +30,23 @@ p {
 
 /* Navbar */
 .navbar {
-  margin: 2rem 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   font-size: 1.8rem;
 }
 
+.img-logo {
+  width: 30%;
+}
+
+.bg-change {
+  background: var(--white);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link {
+  color: var(--sedondary-color);
+}
 /* Header */
 .home-header {
   background-image: linear-gradient(
@@ -47,6 +60,7 @@ p {
   background-size: cover;
   background-position: center;
   height: 70vh;
+  margin-top: 12rem;
 }
 
 .header-text-container {
@@ -115,6 +129,11 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-between;
+}
+
+.img-logo-footer {
+  width: 8rem;
+  width: 8rem;
 }
 
 ion-icon {
