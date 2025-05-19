@@ -107,6 +107,7 @@ main {
 }
 
 .img-text {
+  display: block;
   text-align: center;
   font-size: 2rem;
   padding-top: 1rem;
@@ -156,7 +157,7 @@ ion-icon {
 /* Header  */
 .page-header h1 {
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 /* Main */
@@ -180,6 +181,7 @@ ion-icon {
   text-align: center;
 }
 
+/* Contact Page */
 .contact-text-col {
   margin-right: 3em;
 }
@@ -221,4 +223,44 @@ ion-icon {
 .recipe-details {
   margin-top: 5rem;
   margin-bottom: 20rem;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 3.6em;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 2.8rem;
+  }
+  .collection-heading-3:nth-child(1) {
+    margin-top: 2rem;
+  }
+  .recipe-details {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .header-text-container p {
+    color: var(--white);
+  }
+  .about-text-col {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .contact-text-col {
+    text-align: center;
+    margin: 0 1rem;
+  }
+
+  .img-logo-footer {
+    width: 6rem;
+    width: 6rem;
+  }
 }
