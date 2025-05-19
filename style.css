@@ -139,6 +139,7 @@ footer {
 ion-icon {
   margin-right: 1rem;
   font-size: 3.6rem;
+  cursor: pointer;
 }
 
 .footer-copyright {
