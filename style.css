@@ -170,3 +170,24 @@ ion-icon {
 .text-content ion-icon {
   font-size: 1.8rem;
 }
+
+/* Recipe Collection */
+.collection-img-wrapper {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.collection-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.ingredients-text {
+  border-bottom: 1px dotted var(--primary-color);
+  padding-bottom: 1rem;
+}
+
+.collection-heading-3 {
+  padding-bottom: 2rem;
+  color: var(--sedondary-color);
+}
